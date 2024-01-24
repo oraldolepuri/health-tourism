@@ -1,8 +1,6 @@
 {
-  "name": "health-plus",
+  "name": "health-tourism",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
@@ -42,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.14.2"
   }
 }
