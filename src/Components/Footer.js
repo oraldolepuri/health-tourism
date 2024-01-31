@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+import whatsappLogo from "../Assets/whatsapLogo.png"
 
 function Footer() {
   return (
@@ -91,7 +92,7 @@ function Footer() {
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="https://linkedin.com"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +126,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="https://x.com"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"
@@ -140,6 +141,15 @@ function Footer() {
             </a>
           </li>
         </ul>
+        <a
+        href="https://wa.me/355699622685"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+        <img src={whatsappLogo} width="60" alt="aaaa" />
+      </a>
       </div>
     </div>
   );
