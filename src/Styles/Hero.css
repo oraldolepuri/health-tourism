@@ -145,6 +145,6 @@
     }
     .scroll-up {
         bottom: 32px;
-        right: 32px;
+        left: 32px;
     }
 }

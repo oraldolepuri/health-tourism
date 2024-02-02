@@ -139,7 +139,7 @@ function Footer() {
         rel="noopener noreferrer"
       >
         <i className="fa fa-whatsapp whatsapp-icon"></i>
-        <img src={whatsappLogo} width="60" alt="aaaa" />
+        <img  className="whatsapp_float" src={whatsappLogo} width="60" alt="aaaa" />
       </a>
       </div>
     </div>

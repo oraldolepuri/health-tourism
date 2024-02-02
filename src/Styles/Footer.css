@@ -191,14 +191,14 @@
 /* for mobile */
 @media screen and (max-width: 767px) {
     .whatsapp-icon {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .whatsapp_float {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         bottom: 20px;
         right: 10px;
-        font-size: 22px;
+        font-size: 30px;
     }
 }
