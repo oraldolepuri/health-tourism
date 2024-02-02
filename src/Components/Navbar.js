@@ -62,6 +62,13 @@ function Navbar() {
         </div>
 
         <ul className="mobile-navbar-links">
+        <li>
+        <h1 className="navbar-title">
+        <Link to="/">
+          Health <span className="navbar-sign">+</span>
+        </Link>
+      </h1>
+            </li>
           <li>
             <Link onClick={openNav} to="/">
               Home
