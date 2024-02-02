@@ -14,6 +14,16 @@
 .navbar-title {
     font-family: 'Poppins', sans-serif;
 }
+.navbar-titlet a {
+    color: #1A8EFD;
+    letter-spacing: .6px;
+    text-decoration: none;
+}
+.navbar-titlet {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -100px;
+    margin-left: 45px;
+}
 .navbar-sign {
     color: #54de54;
     font-family: Cambria, sans-serif;

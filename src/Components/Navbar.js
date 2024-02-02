@@ -63,7 +63,7 @@ function Navbar() {
 
         <ul className="mobile-navbar-links">
         <li>
-        <h1 className="navbar-title">
+        <h1 className="navbar-titlet">
         <Link to="/">
           Health <span className="navbar-sign">+</span>
         </Link>
