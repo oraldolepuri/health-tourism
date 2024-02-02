@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Footer.css";
-import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
 import whatsappLogo from "../Assets/whatsapLogo.png"
 
@@ -19,8 +18,6 @@ function Footer() {
               healthcare services at your fingertips.
             </p>
           </div>
-
-          <SubscribeNewsletter />
         </div>
 
         <div className="ft-list">
@@ -69,18 +66,12 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:support@healthplus.com">email.com</a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
-              </a>
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
-            </li>
-            <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+              <a href="tel:+355699622685">+355699622685</a>
             </li>
           </ul>
         </div>
@@ -143,11 +134,11 @@ function Footer() {
         </ul>
         <a
         href="https://wa.me/355699622685"
-        class="whatsapp_float"
+        className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
+        <i className="fa fa-whatsapp whatsapp-icon"></i>
         <img src={whatsappLogo} width="60" alt="aaaa" />
       </a>
       </div>

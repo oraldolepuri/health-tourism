@@ -45,6 +45,7 @@ function Hero() {
             refills and medical notes within minutes. On-demand healthcare
             services at your fingertips.
           </p>
+
           <button
             className="text-appointment-btn"
             type="button"
@@ -52,6 +53,7 @@ function Hero() {
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
           </button>
+
           <div className="text-stats">
             <div className="text-stats-container">
               <p>145k+</p>
